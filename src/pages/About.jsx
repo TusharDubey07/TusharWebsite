@@ -59,9 +59,7 @@ const About = () => {
           >
             <h2 className="text-4xl font-bold text-blue-400 mb-6">About Me</h2>
             <p className="text-gray-300 text-lg leading-relaxed">
-              I'm a passionate Full Stack Developer with expertise in modern web technologies.
-              Specializing in building scalable applications with React, Node.js, and cloud technologies.
-              I love solving complex problems and creating efficient, user-friendly solutions.
+            Passionate and detail-oriented Frontend Developer with a strong foundation in building responsive, user-friendly web applications. Proficient in HTML, CSS, JavaScript, React, and Next.js, with experience in creating dynamic UI/UX designs. Enthusiastic about developing seamless digital experiences and optimizing web performance. Always eager to learn and implement the latest web technologies to deliver high-quality solutions.
             </p>
           </motion.div>
 

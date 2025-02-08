@@ -42,20 +42,22 @@ const Home = () => {
               transition={{ delay: 0.6 }}
               className="flex flex-col sm:flex-row gap-4 sm:space-x-4"
             >
-              <motion.button
+              <motion.a
+                href="#resume"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-8 py-3 rounded-full hover:shadow-[0_0_15px_rgba(59,130,246,0.5)] transition-all duration-300"
+                className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-8 py-3 rounded-full hover:shadow-[0_0_15px_rgba(59,130,246,0.5)] transition-all duration-300 text-center"
               >
                 Get in touch
-              </motion.button>
-              <motion.button
+              </motion.a>
+              <motion.a
+                href="#projects"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="border-2 border-blue-500 text-blue-400 px-8 py-3 rounded-full hover:shadow-[0_0_15px_rgba(59,130,246,0.3)] transition-all duration-300"
+                className="border-2 border-blue-500 text-blue-400 px-8 py-3 rounded-full hover:shadow-[0_0_15px_rgba(59,130,246,0.3)] transition-all duration-300 text-center"
               >
                 View Projects
-              </motion.button>
+              </motion.a>
             </motion.div>
           </motion.div>
           
